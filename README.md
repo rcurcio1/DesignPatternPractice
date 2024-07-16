@@ -63,7 +63,6 @@ Welcome to the Java Design Patterns Practice project! This repository is dedicat
 ## Acknowledgments
 
 - Inspired by the classic "Design Patterns: Elements of Reusable Object-Oriented Software" book by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
-- Special thanks to the open-source community for their continuous support and contributions.
 
 ---
 
