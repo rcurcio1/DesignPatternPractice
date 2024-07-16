@@ -43,81 +43,22 @@ Welcome to the Java Design Patterns Practice project! This repository is dedicat
 
 ### Installation
 
-1. Clone the repository:
+1. Fork the repository
+2. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/java-design-patterns-practice.git
+   git clone git@github.com:<username>/DesignPatternPractice.git
    ```
-2. Navigate to the project directory:
+3. Navigate to the project directory:
    ```bash
-   cd java-design-patterns-practice
+   cd DesignPatternPractice
    ```
-3. Open the project in your preferred IDE.
+4. Open the project in your preferred IDE.
 
 ### Usage
 
 1. Explore the `src` directory to find examples for each design pattern.
-2. Each pattern is implemented in its respective package, containing:
-   - A README file explaining the pattern
-   - Java classes demonstrating the pattern
-   - Unit tests to validate the implementation
-3. Run the unit tests to see the patterns in action and understand their behavior.
-
-### Example
-
-Here's a simple example of how to use the Singleton pattern:
-
-```java
-// Singleton.java
-public class Singleton {
-    private static Singleton instance;
-
-    private Singleton() {
-        // private constructor to prevent instantiation
-    }
-
-    public static Singleton getInstance() {
-        if (instance == null) {
-            instance = new Singleton();
-        }
-        return instance;
-    }
-
-    public void showMessage() {
-        System.out.println("Hello, I am a Singleton!");
-    }
-}
-
-// Main.java
-public class Main {
-    public static void main(String[] args) {
-        Singleton singleton = Singleton.getInstance();
-        singleton.showMessage();
-    }
-}
-```
-
-## Contribution
-
-We welcome contributions from the community! If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m 'Add some feature'
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+2. Each pattern is implemented in its respective package
+3. Run the Main.java file in each directory to see the patterns in action and understand their behavior.
 
 ## Acknowledgments
 
